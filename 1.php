@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
 <title>Тестируем PHP</title>
@@ -20,6 +18,9 @@ for ($i = 0; $i < $len; $i++){
     }
 }
 
-print_r($arr); ?>
+echo '<pre>';
+print_r($arr);
+echo '</pre>';
+?>
 </body>
 </html>
